@@ -1,0 +1,36 @@
+@import "variables";
+
+body {
+  margin: 0;
+  background-color: #F3F7FA;
+  font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: var(--main-color);
+}
+
+button {
+  font-family: inherit;
+}
+
+* {
+  outline: none;
+  transition-property: none;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

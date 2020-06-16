@@ -1,0 +1,53 @@
+.ticket {
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: var(--shadow);
+  border-radius: var(--el-radius);
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2196F3;
+  }
+
+  &__logo {
+
+  }
+
+  &__options {
+    display: flex;
+    margin-top: 10px;
+  }
+
+
+  &__info {
+    min-width: 72px;
+
+    &:not(:last-child) {
+      margin-right: 70px;
+    }
+
+     & > span {
+      display: block;
+
+      &:first-child {
+        color: #A0B0B9;
+        text-transform: uppercase;
+      }
+
+      &:last-child:not(:first-child) {
+
+      }
+    }
+  }
+}

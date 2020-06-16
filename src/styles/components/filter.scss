@@ -1,0 +1,29 @@
+.filter {
+  display: flex;
+  position: sticky;
+  top: 20px;
+  flex-direction: column;
+  padding: 20px 0;
+  background: #FFFFFF;
+  box-shadow: var(--shadow);
+  border-radius: var(--el-radius);
+
+  &__title {
+    padding: 0 var(--sidebar-h-p);
+    margin-bottom: 10px;
+  }
+
+  &__checkbox { /* &[label] */
+    padding: 5px var(--sidebar-h-p);
+    cursor: pointer;
+    transition: background-color .2s;
+
+    &:hover {
+      background-color: #F1FCFF;
+    }
+
+    input {
+      margin-right: 10px;
+    }
+  }
+}
