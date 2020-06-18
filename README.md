@@ -1,12 +1,8 @@
-### `npm start`
+#### `npm start` / `npm run build`
 
-### `npm run build`
+#### [deployed on](http://Archon77.github.io/demo_aviasales)
 
 ##TODO
-* Button вынести в шаблон
 * Проверка верстки и лиших элеметов в коде
-* Выводить часть тикетов, подгружать отдельно (СКБ)
-* Шаблоны СКБ
-* Сборка в прод
-* Перенос
-* Redux
+* Шаблоны СКБ (лоадер)
+* Redux отдельной веткой

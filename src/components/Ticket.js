@@ -36,7 +36,7 @@ export default function (props) {
         <div className="ticket">
             <div className="ticket__top">
                 <span className="ticket__price">{ ticket.price } Р</span>
-                <img src={`http://pics.avs.io/99/36/${ticket.carrier}.png`} className="ticket__logo" alt="logo" />
+                <img src={`https://pics.avs.io/99/36/${ticket.carrier}.png`} className="ticket__logo" alt="logo" />
 
             </div>
             { ticket.segments.map((option, index) =>

@@ -11,10 +11,6 @@
     "react-scripts": "3.4.1",
     "sass": "^1.26.8"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -29,5 +25,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "http://Archon77.github.io/demo_aviasales",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "react-scripts build && gh-pages -d build"
   }
 }
